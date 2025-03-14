@@ -17,11 +17,11 @@ Repositori ini berisi latihan dasar dalam penggunaan **Git dan GitHub** untuk me
 #### 📝 Perintah:
 
 ```bash
-mkdir nama_proyek        # Buat direktori baru
-cd nama_proyek           # Masuk ke dalam direktori
-git init                 # Inisialisasi repository Git
-touch file1.txt          # Buat file contoh
-echo "Hello Git" > file1.txt # Tambahkan isi ke file
+mkdir nama_proyek                # Buat direktori baru
+cd nama_proyek                   # Masuk ke dalam direktori
+git init                         # Inisialisasi repository Git
+touch file1.txt                  # Buat file contoh
+echo "Hello Git" > file1.txt     # Tambahkan isi ke file
 ```
 
 🖼 **Screenshot:**
@@ -41,10 +41,10 @@ echo "Hello Git" > file1.txt # Tambahkan isi ke file
 #### 📝 Perintah:
 
 ```bash
-git add file1.txt        # Menambahkan file ke staging
-git commit -m "Menambahkan file1.txt" # Commit dengan pesan deskriptif
-git remote add origin <URL_REPO_GITHUB> # Hubungkan ke repository GitHub
-git push -u origin main  # Push ke repository GitHub
+git add file1.txt                          # Menambahkan file ke staging
+git commit -m "Menambahkan file1.txt"      # Commit dengan pesan deskriptif
+git remote add origin <URL_REPO_GITHUB>    # Hubungkan ke repository GitHub
+git push -u origin main                    # Push ke repository GitHub
 ```
 
 🖼 **Screenshot:**
@@ -63,8 +63,9 @@ git push -u origin main  # Push ke repository GitHub
 #### 📝 Perintah:
 
 ```bash
-git branch fitur-baru    # Buat branch baru
-git checkout fitur-baru  # Beralih ke branch baru
+git branch fitur-baru          # Buat branch baru
+git checkout fitur-baru        # Beralih ke branch baru
+
 # atau bisa langsung dengan:
 git checkout -b fitur-baru
 ```
@@ -84,10 +85,10 @@ git checkout -b fitur-baru
 #### 📝 Perintah:
 
 ```bash
-echo "Update dari fitur-baru" >> file1.txt # Lakukan perubahan
-git add file1.txt
-git commit -m "Update dari fitur-baru"
-git push origin fitur-baru # Push branch baru ke GitHub
+echo "Update dari fitur-baru" >> file1.txt  # Lakukan perubahan
+git add file1.txt                           # Menambahkan file ke staging
+git commit -m "Update dari fitur-baru"      # Commit dengan pesan deskriptif
+git push origin fitur-baru                  # Push branch baru ke GitHub
 ```
 
 🖼 **Screenshot:**
